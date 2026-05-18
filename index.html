@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind v4 Teste</title>
+  <link href="./dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+  <header class="bg-black text-white">
+    <div><a class="text-white" href="index2.html">Venha</a></div>
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+
+      <h1 class="text-3xl font-bold"><a href="index.html">VoltechStore</a></h1>
+
+      <nav class="flex gap-6">
+        <a href="#" class="hover:text-gray-300">Combos</a>
+        <a href="#" class="hover:text-gray-300">Produtos</a>
+        <a href="#" class="hover:text-gray-300">Carrinho</a>
+      </nav>
+
+    </div>
+    <button class="flex ml-4">
+  <svg xmlns="http://www.w3.org/2000/svg"
+       class="w-8 h-8"
+       fill="none"
+       viewBox="0 0 24 24"
+       stroke="grey">
+
+    <path stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"/>
+
+          <h2 class="text-lg font-semibold">Categorias</h2>
+          
+  </svg>
+</button>
+  </header>
+
+ <main class="grid 
+             sm:grid-cols-2
+             md:grid-cols-3
+             lg:grid-cols-4
+             lg:zoom-95
+            lg:gap-10
+            2xl:grid-cols-5
+             gap-6 
+             justify-items-center p-6">
+  
+ 
+
+
+
+           
+
+   <div class="bg-white rounded-2xl mt-8 shadow-lg p-6 w-80 hover:scale-105 transition duration-300">   <!-- ----Produto 1---- -->
+
+  <img class="w-full h-64 object-cover rounded-xl"
+    src="https://scontent.fsjp3-1.fna.fbcdn.net/v/t39.84726-6/665760982_2676407699384821_8478197942452314858_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=104&ccb=1-7&_nc_sid=92e707&_nc_ohc=hMFn600YX-0Q7kNvwGtLEks&_nc_oc=AdpW4A4W0i8RlmD-gi8Nj5m1hvKpqS0CkkZbU9LZOJyK_j_n4CRsnBqZYm30-6sh4mo&_nc_zt=14&_nc_ht=scontent.fsjp3-1.fna&_nc_gid=pjqSW_MVQzzJFyZAEIWiYA&_nc_ss=7b2a8&oh=00_Af4ZeLga_rGcEgxzuUl5Js0-PKxgEFCt_CAWMLW0eH7jsw&oe=6A0D733B"
+    
+  >
+
+  <h2 class="text-2xl font-bold mt-4">
+    R$ 1.600
+  </h2>
+  
+  <h2 class="text-2xl font-semibold">
+    Notebook Gamer
+  </h2>
+
+  <p class="text-gray-500 mt-2">
+    Intel Core i5 16gb RAM 512gb SSD Placa de Vídeo GTX 1650
+  </p>
+
+  <button class="bg-black text-white  rounded-xl mt-auto flex m-auto hover:bg-gray-800 transition">
+    <a href="produto.html?id=rtx3070ti" 
+     class="bg-primary text-white p-4  rounded hover:bg-blue-600 inline-block">
+    Comprar
+    </a>
+  </button>
+</a>
+</div>
+
+   <div class="bg-white rounded-2xl mt-8 shadow-lg p-6 w-80 hover:scale-105 transition duration-300">  <!-- ----Produto 2---- -->
+
+  <img class="w-full h-64 object-cover rounded-xl"
+    src="https://scontent.fsjp3-1.fna.fbcdn.net/v/t45.5328-4/691432432_995039499730636_1724028708008394015_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=103&ccb=1-7&_nc_sid=247b10&_nc_ohc=kONun222BCEQ7kNvwGZwQcE&_nc_oc=Adp3d7Yqh8zru6aq3nLIQFbK8P3Y7L5VX2YKp8-EKu8JDsK-Lqn4HRy1FySD6vlINkQ&_nc_zt=23&_nc_ht=scontent.fsjp3-1.fna&_nc_gid=9wti0Lk0w24EZ0_K1LudXg&_nc_ss=7b2a8&oh=00_Af7YmcFL5JpAYUZQdZX5RZGf_N1kneXxPeGGYOaL1ZQv7Q&oe=6A0D7149"
+  >
+
+<h2 class="text-2xl font-bold mt-4">
+    R$ 2.000
+  </h2>
+
+  <h2 class="text-2xl font-semibold">
+    Pc Gamer Xeon V2
+  </h2>
+
+  <p class="text-gray-500 mt-2">
+    Intel Xeon E3-1275 V2,
+    Rx 580 8gb,
+    16 Ram,
+    SSD 250gb + HD 1tb
+
+  </p>
+
+  <button class="bg-black text-white mt-auto rounded-xl flex m-auto hover:bg-gray-800 transition">
+    <a href="produto.html?id=pcxeon" 
+     class="bg-primary text-white p-4 rounded hover:bg-blue-600 inline-block">
+    Comprar
+    </a>
+  </button>
+
+</div>
+
+<div class="bg-white rounded-2xl mt-8 shadow-lg p-6 w-80 hover:scale-105 transition duration-300">  <!-- ----Produto 3---- -->
+
+  <img class="w-full h-64 object-cover rounded-xl"
+    src="https://scontent.fsjp3-1.fna.fbcdn.net/v/t45.5328-4/697911676_1745061953534481_2997821849290296740_n.jpg?stp=dst-jpg_p960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=247b10&_nc_ohc=fVNjchUDWJgQ7kNvwH14XBN&_nc_oc=Adrgb95aA-6OpKTRxuzq6dGRp4kZhk-2vapYn8d55kFX012urWZdz7aQFGOixRPEwgo&_nc_zt=23&_nc_ht=scontent.fsjp3-1.fna&_nc_gid=M4y96EW76BpMp3_wVWimrw&_nc_ss=7b2a8&oh=00_Af6IeXf1Y_Yc_c6S9DL7ZiqKp87AmBxhTrUzXsecNDnXMw&oe=6A0D4F19">
+  
+    <h2 class="text-2xl font-bold mt-4">
+    R$ 3.200
+  </h2>
+  
+    <h2 class="text-2xl font-semibold">
+    Pc Gamer Ryzen 7
+  </h2>
+
+  <p class="text-gray-500 mt-2">
+      RTX 5060 8GB 
+
+      Ryzen 7 5700X 
+
+      SSD Kingston NV3 1TB
+
+      16gb RAM
+
+  </p>
+
+  <button class="bg-black text-white mt-auto rounded-xl flex m-auto hover:bg-gray-800 transition">
+    
+    <a href="produto.html?id=ryzen7" 
+     class="bg-primary text-white p-4 rounded hover:bg-blue-600 inline-block">
+    Comprar
+    </a>
+  </button>
+
+</div>
+
+
+<div class="bg-white rounded-2xl mt-8 shadow-lg p-6 w-80 hover:scale-105 transition duration-300">  <!-- ----Produto 4---- -->
+
+  <img class="w-full h-64 object-cover rounded-xl"
+    src="https://scontent.fsjp3-1.fna.fbcdn.net/v/t39.84726-6/619294495_2042540632954423_2085821328309321952_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=92e707&_nc_ohc=7ctSwVfiG94Q7kNvwHaGncA&_nc_oc=Adpbgg29dn_05iMCKfS2hOeI78fsf5pmeroBFGZyZyRHf5mKqJoRk-8kuJiFimQeego&_nc_zt=14&_nc_ht=scontent.fsjp3-1.fna&_nc_gid=gCI7loWXZ9IeOi1hXTqW0Q&_nc_ss=7b2a8&oh=00_Af449WTBoEzRlPBlGllnbD5PV0MsY4lFfGEQgb-26QMV0A&oe=6A0D69FB"
+  >
+
+  <h2 class="text-2xl font-bold mt-4">
+    R$ 2.450
+  </h2>
+
+  <h2 class="text-2xl font-semibold">
+    Placa de video RTX 3070TI
+  </h2>
+
+  <p class="text-gray-500 mt-2">
+    
+    6144 Cores CUDA
+
+    8GB GDDR6X
+
+    Boost:1800 MHz
+
+    Triple Fans
+  </p>
+
+  <button class="bg-black text-white mt-auto rounded-xl flex m-auto hover:bg-gray-800 transition">
+    <a href="produto.html?id=rtx3070ti" 
+     class="bg-primary text-white p-4  rounded hover:bg-blue-600 inline-block">
+    Comprar
+    </a>
+  </button>
+
+</div>
+
+
+
+<div class="bg-white rounded-2xl mt-8 shadow-lg p-6 w-80 hover:scale-105 transition duration-300">  <!-- ----Produto 5---- -->
+
+  <img class="w-full h-64 object-cover rounded-xl"
+    src="https://scontent.fsjp3-1.fna.fbcdn.net/v/t39.84726-6/686034559_1512417970497698_6956895779257950621_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=106&ccb=1-7&_nc_sid=92e707&_nc_ohc=IiBA5Ujxy1UQ7kNvwHmBJJy&_nc_oc=AdrA1D4t5Kml6-oc2XqFi0JEvMSDY3LPQofkOCwGH2IiH4yif-ZEKsJX5FrqEgiTPE8&_nc_zt=14&_nc_ht=scontent.fsjp3-1.fna&_nc_gid=CB4o-N1rvrjLyoGV5BgbTg&_nc_ss=7b2a8&oh=00_Af6chdGGArK-eUkCPaW9fCP0TMNod5qSC8xN2-OrobJCbA&oe=6A0D7219"
+  >
+  <h2 class="text-2xl font-bold mt-4">
+    R$ 2.100
+  </h2>
+
+  <h2 class="text-2xl font-semibold">
+    Poco X7 Pro
+  </h2>
+
+  <p class="text-gray-500 mt-2">
+    Tela AMOLED 120Hz
+
+    Snapdragon 778G
+
+    Câmera 64MP
+
+    12GB RAM + 256GB Armazenamento
+
+  </p>
+  
+
+  <button class="bg-black text-white mt-auto rounded-xl flex m-auto hover:bg-gray-800 transition" onclick="ligar()">
+    <a href="produto.html?id=pocox7" 
+     class="bg-primary text-white p-4 rounded hover:bg-blue-600 inline-block">
+    Comprar
+    </a>
+  </button>
+
+</div>
+
+<div class="bg-white rounded-2xl mt-8 shadow-lg p-6 w-80 hover:scale-105 transition duration-300">   <!-- ----Produto 1---- -->
+
+  <img class="w-full h-64 object-cover rounded-xl"
+    src="https://scontent.fsjp3-1.fna.fbcdn.net/v/t39.84726-6/699397751_1692359508455175_3230800588279655392_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=92e707&_nc_ohc=4WP1K5d8TysQ7kNvwFTWvnh&_nc_oc=Adpdtc8rzrvEv0jBT-xPp4q53fwNLpK3m9iuhXkB3USKrPNT3c0H3X_AYbyGORjLvUk&_nc_zt=14&_nc_ht=scontent.fsjp3-1.fna&_nc_gid=-qlR55xYvCt2Of4t7caH3w&_nc_ss=7b2a8&oh=00_Af776mxX43r8Zd0LteUQr0_JZW-wH367xekN46kIGls9gA&oe=6A113DF1"
+    
+  >
+
+  <h2 class="text-2xl font-bold mt-4">
+    R$ 2.700
+  </h2>
+  
+  <h2 class="text-2xl font-semibold">
+    Playstation 5
+  </h2>
+
+  <p class="text-gray-500 mt-2">
+    Console de ulltima geração, desfrute os melhores graficos dos consoles
+    +1 Controle e Headset
+  </p>
+
+  <button class="bg-black text-white  rounded-xl mt-auto flex m-auto hover:bg-gray-800 transition">
+    <a href="produto.html?id=ps5" 
+     class="bg-primary text-white p-4  rounded hover:bg-blue-600 inline-block">
+    Comprar
+    </a>
+  </button>
+</a>
+
+
+<div id="produto-detalhe" class="hidden p-6 bg-gray-100 rounded-lg mt-6">
+
+</div>
+
+
+
+  </main>
+
+<section class="pointer-click">
+  <h2 class="text-2xl font-bold mt-8 text-center bg-black text-white w-60 rounded-full m-auto p-3">Ver mais</h2>
+</section>
+
+
+
+
+  
+
+</div>
+
+</body>
+</html>
