@@ -38,22 +38,28 @@
         imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1787181094/ps5.avif"
       },
       { id:"xboxseriesx",
-        titulo: "XbosSeriesX",
+        titulo: "XboX Series X",
         preco: "R$ 3.000",
         descricao: "Console de ulltima geração, desfrute os melhores graficos dos consoles +1 Controle e Headset",
         imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1787181096/xboxseriesx.jpg"
       },
       {id: "controleseriess", 
-        titulo: "ControleSeriesS",
+        titulo: "Controle do Xbox Series S",
         preco: "R$ 250,00",
         descricao: "Console de ulltima geração, desfrute os melhores graficos dos consoles +1 Controle e Headset",
         imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1787181077/controlexbox.webp"
       },
-      { id: "ps5", 
-        titulo: "Playstation 5",
-        preco: "R$ 2.700",
-        descricao: "Console de ulltima geração, desfrute os melhores graficos dos consoles +1 Controle e Headset",
-        imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1787181094/ps5.avif"
+      { id: "nintendoswitch", 
+        titulo: "Nintendo Switch",
+        preco: "R$ 2.200",
+        descricao: "Console de ulltima geração, Tela Oled, Desbloqueado + Jogo",
+        imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1787955176/Nw.avif"
+      },
+      { id: "watercooler",
+        titulo: "Water Cooler Rise Mode",
+        preco: "R$ 350,00",
+        descricao: "Watercooler 360mm efrie sua maquina",
+        imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1787955511/watercooler.jpg"
       }
     ];
 
