@@ -1,6 +1,7 @@
 const pesquisa = document.getElementById("pesquisa");
 
-pesquisa.addEventListener("input", function () {
+pesquisa.addEventListener("keydown", function (evento) {
+    if (evento.key === "Enter") {
 
     const texto = pesquisa.value.toLowerCase();
 
@@ -18,4 +19,5 @@ pesquisa.addEventListener("input", function () {
 
     mostrarProdutos(produtosFiltrados);
 
+}
 });

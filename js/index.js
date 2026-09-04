@@ -5,7 +5,6 @@ function mostrarProdutos(lista) {
     cards.innerHTML = "";
 
     lista.forEach(function (produto) {
-
         cards.innerHTML += `
 
         <div 
@@ -38,3 +37,4 @@ function mostrarProdutos(lista) {
 }
 
 mostrarProdutos(produtos);
+

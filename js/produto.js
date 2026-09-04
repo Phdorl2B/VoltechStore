@@ -16,24 +16,4 @@ console.log(produto);
     } else {
       document.getElementById("titulo").textContent = "Produto não encontrado";
     }
-     const categoriasBtn = document.getElementById("categoriasBtn");
-const categoriasMenu = document.getElementById("categoriasMenu");
 
-categoriasBtn.addEventListener("click", function (event) {
-
-    event.stopPropagation();
-
-    categoriasMenu.classList.toggle("hidden");
-
-});
-
-document.addEventListener("click", function (event) {
-
-    if (
-        !categoriasBtn.contains(event.target) &&
-        !categoriasMenu.contains(event.target)
-    ) {
-        categoriasMenu.classList.add("hidden");
-    }
-
-});
