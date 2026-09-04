@@ -1,13 +1,13 @@
 const cards = document.getElementById("cards");
 
-function mostrarProdutos() {
+function mostrarProdutos(lista) {
 
     cards.innerHTML = "";
 
-    produtos.forEach(function(produto) {
+    lista.forEach(function (produto) {
 
         cards.innerHTML += `
-        
+
         <div 
             onclick="window.location.href='produto.html?id=${produto.id}'"
             class="bg-white rounded-2xl mt-8 shadow-lg p-6 w-80 hover:scale-105 transition duration-300 cursor-pointer"
@@ -30,14 +30,11 @@ function mostrarProdutos() {
                 ${produto.descricao}
             </p>
 
-           
-
         </div>
 
         `;
 
     });
-
 }
 
-mostrarProdutos();
+mostrarProdutos(produtos);
