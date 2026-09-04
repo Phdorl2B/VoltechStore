@@ -12,6 +12,7 @@ console.log(produto);
       document.getElementById("preco").textContent = produto.preco;
       document.getElementById("especificacoes").textContent = produto.especificacoes
       document.getElementById("imagem").src = produto.imagem;
+      document.getElementsByClassName("categoria").textContent = produto.categoria
     } else {
       document.getElementById("titulo").textContent = "Produto não encontrado";
     }
