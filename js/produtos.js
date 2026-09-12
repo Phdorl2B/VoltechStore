@@ -70,7 +70,49 @@
         descricao: "Watercooler 360mm efrie sua maquina",
         categoria: "Water Cooler",
         imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1787955511/watercooler.jpg"
-      }
+      },
+      { id: "ryzen75800x3d",
+        titulo: "Ryzen 7 5800x3d",
+        preco: "R$ 2.000",
+        descricao: "Melhor Processador Am4, 3.4gb base 4.5 turbo",
+        categoria: "Processador",
+        imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1789189192/76f3ed5d-46f1-4f99-8504-7af6818db2ba.png"
+      },
+      { id: "intelcoreultra5225f",
+        titulo: "Intel Core Ultra 5 225f",
+        preco: "R$ 1.299",
+        descricao: "Melhor custo beneficio intel, potente com 3.6 ghz base 4.6 turbo",
+        categoria: "Processador",
+        imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1789189364/0146e03e-9009-4721-ae2e-f6be7237156b.png"
+      },
+      { id: "memoriaramvengeance",
+        titulo: "Memoria Ram Vengeance",
+        preco: "R$ 799,99",
+        descricao: "Memorias rams da corsair, 3200mhz cl16 8gb ram",
+        categoria: "Memoria Ram",
+        imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1789189985/e8af9b24-cb8a-4cc1-894f-55e921c5c6a8.png"
+      },
+      { id: "memoriaramfury",
+        titulo: "Memoria Ram Fury Rgb",
+        preco: "R$ 1.299",
+        descricao: "Memoria Ram Fury Rgb 8gb 3600mhz cl17",
+        categoria: "Memoria Ram",
+        imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1789189534/5e98c7e9-cd34-4f12-8729-ed9fab608bdd.png"
+      },
+      { id: "ssdcrucial1tb",
+        titulo: "Ssd Crucial nvm2 1Tb",
+        preco: "R$ 1.000",
+        descricao: "Ssd 4,0 leitura 4000mhz e escrita 3200mhz",
+        categoria: "Ssd",
+        imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1789190056/84c415d4-dd94-4301-8900-7a8cb4c7dacf.png"
+      },
+      { id: "ssdwdgreem256gb",
+        titulo: "Ssd Wd Green sata 256gb",
+        preco: "R$ 540,00",
+        descricao: "Ssd 4,0 leitura 2500mhz e escrita 2400mhz",
+        categoria: "Ssd",
+        imagem: "https://res.cloudinary.com/m68oprsk/image/upload/v1789190086/4506bf01-18fa-490b-8ae0-53ec41f820e4.png"
+      },
     ];
 
     
