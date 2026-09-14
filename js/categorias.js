@@ -13,6 +13,7 @@ document.addEventListener("click", function (event) {
         !categoriasMenu.contains(event.target)
     ) {
         categoriasMenu.classList.add("hidden");
+        vermais.style.display = "none";
     }
 });
 const linksCategorias = document.querySelectorAll("[data-categoria]");
@@ -27,11 +28,15 @@ linksCategorias.forEach(function (link) {
 
         const produtosFiltrados = produtos.filter(function (produto) {
             return produto.categoria === categoria;
+
+            
         });
 
         mostrarProdutos(produtosFiltrados);
 
         categoriasMenu.classList.add("hidden");
+
+         vermais.style.display = "none";
     });
 
 });
