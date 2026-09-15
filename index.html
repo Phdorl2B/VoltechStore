@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tailwind v4 Teste</title>
   <link href="./dist/output.css" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
+ 
 </head>
 <body class="bg-gray-200 ">
 
@@ -17,6 +17,14 @@
         <a href="index.html">VoltechStore</a>
     </h1>
 
+    <div class="flex justify-center mb-6 mt-6 w-full text-black">
+    <input
+        id="pesquisa"
+        type="text"
+        placeholder="Pesquisar produto..."
+        class="w-full max-w-md px-4 py-3 border rounded-xl outline-none" >
+</div>
+
    <nav class="hidden md:flex gap-6">
     <a href="#" class="hover:text-gray-300">Combos</a>
     <a href="#" class="hover:text-gray-300">Produtos</a>
@@ -25,18 +33,17 @@
 
 </div>
     </div>
-     <div class="relative px-4 h-[32px]">
+     <div class="relative px-4 h-32px">
 
         <button
             id="categoriasBtn"
-            class="flex items-center gap-2 text-white font-semibold hover:text-gray-300"
-        >
+            class="flex items-center gap-2 text-white font-semibold hover:text-gray-300">
 
             <!-- 3 tracinhos -->
-            <span class="flex flex-col gap-[4px]">
-                <span class="w-5 h-[2px] bg-gray-400"></span>
-                <span class="w-5 h-[2px] bg-gray-400"></span>
-                <span class="w-5 h-[2px] bg-gray-400"></span>
+            <span class="flex flex-col gap-0.5">
+                <span class="w-4 h-0.5 bg-gray-400"></span>
+                <span class="w-4 h-0.5 bg-gray-400"></span>
+                <span class="w-4 h-0.5 bg-gray-400"></span>
             </span>
 
             <span>Categorias</span>
@@ -98,16 +105,13 @@
 
   </header>
   
+<div id="banner" class="w-full">
 
 
-  <div class="flex justify-center mb-6 mt-6">
-    <input
-        id="pesquisa"
-        type="text"
-        placeholder="Pesquisar produto..."
-        class="w-full max-w-md px-4 py-3 border rounded-xl outline-none" >
 </div>
 
+  
+ <img class="w-[95%] mx-auto h-80 mt-4 object-cover" src="https://res.cloudinary.com/m68oprsk/image/upload/v1789431209/ChatGPT_Image_14_de_set._de_2026_3.png" alt="#">
 <main
     id="cards"
     class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 justify-items-center p-6"
