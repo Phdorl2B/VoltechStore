@@ -13,11 +13,11 @@ function mostrarProdutos(lista) {
 
         <div 
             onclick="window.location.href='produto.html?id=${produto.id}'"
-            class="bg-white rounded-2xl mt-8 shadow-lg p-6 w-90% md:w-full hover:scale-105 transition duration-300 cursor-pointer"
+           class="bg-white rounded-2xl mt-4 shadow-lg p-3 w-[78%] sm:w-[70%] md:w-full hover:scale-105 transition duration-300 cursor-pointer"
         >
 
             <img 
-                class="w-full h-64 object-cover rounded-xl"
+               class="w-full h-40 sm:h-48 md:h-64 object-contain rounded-xl"
                 src="${produto.imagem}"
             >
 
