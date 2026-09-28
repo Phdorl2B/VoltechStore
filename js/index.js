@@ -44,16 +44,11 @@ function mostrarProdutos(lista) {
             </h2>
 
                     
-            <button 
-                onclick="adicionarcarrinho(event, '${produto.id}')"
-                class="w-full mt-4 bg-black text-white py-3 rounded-xl font-semibold hover:bg-gray-800 transition cursor-pointer"
-                
-                
-            >
-            Adicionar ao carrinho
+           <button
+                onclick="adicionarCarrinho(event, '${produto.id}')"
+                class="w-full mt-auto bg-black text-white py-3 rounded-xl font-semibold hover:bg-gray-800 transition cursor-pointer">
+                 Adicionar ao carrinho
             </button>
-
-        </div>
         `;
     });
 }
@@ -96,7 +91,7 @@ verMais.addEventListener("click", function () {
 
 });
 
-function adicionarcarrinho(event, id) {
+function adicionarCarrinho(event, id) {
 
     event.stopPropagation();
 
@@ -104,76 +99,3 @@ function adicionarcarrinho(event, id) {
 
 }
 
-// function mostrarmenu(){
-// menumobile = document.getElementById("categoriamobile");
-
-// if menumobile = 
-
-// menumobile.innerHTML += `
-//     <button
-//             id="categoriasBtn"
-//             class="flex items-center gap-2 text-white font-semibold hover:text-gray-300">
-
-//             <!-- 3 tracinhos -->
-//             <span class="flex flex-col gap-0.5">
-//                 <span class="w-4 h-0.5 bg-gray-400"></span>
-//                 <span class="w-4 h-0.5 bg-gray-400"></span>
-//                 <span class="w-4 h-0.5 bg-gray-400"></span>
-//             </span>
-
-//             <span>Categorias</span>
-
-//         </button>
-
-//         <!---Menu de Categorias--->
-//         <div
-//     id="categoriasMenu"
-//     class="hidden absolute left-4 top-full mt-3 w-56 bg-white text-black rounded-lg shadow-xl overflow-hidden z-50"
-// >
-//     <a class="block px-5 py-3 hover:bg-gray-100 cursor-pointer"
-//        data-categoria="Notebook">
-//         Notebooks
-//     </a>
-
-//     <a class="block px-5 py-3 hover:bg-gray-100 cursor-pointer"
-//        data-categoria="Pc, Computadores">
-//         Computadores
-//     </a>
-
-//     <a class="block px-5 py-3 hover:bg-gray-100 cursor-pointer"
-//        data-categoria="Placa de Video">
-//         Placas de Vídeo
-//     </a>
-
-//     <a class="block px-5 py-3 hover:bg-gray-100 cursor-pointer"
-//        data-categoria="Processador">
-//         Processadores
-//     </a>
-
-//     <a class="block px-5 py-3 hover:bg-gray-100 cursor-pointer"
-//        data-categoria="Memoria Ram">
-//         Memórias RAM
-//     </a>
-
-//     <a class="block px-5 py-3 hover:bg-gray-100 cursor-pointer"
-//        data-categoria="Ssd">
-//         SSDs
-//     </a>
-
-//     <a class="block px-5 py-3 hover:bg-gray-100 cursor-pointer"
-//        data-categoria="Console">
-//         Consoles
-//     </a>
-
-//     <a class="block px-5 py-3 hover:bg-gray-100 cursor-pointer"
-//        data-categoria="Celular">
-//         Celulares
-//     </a>
-
-//      <a class="block px-5 py-3 hover:bg-gray-100 cursor-pointer"
-//        data-categoria="Controle, Perifericos">
-//         Perifericos
-//     </a>
-// </div>
-//    `
-//  
