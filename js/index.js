@@ -34,7 +34,7 @@ function mostrarProdutos(lista) {
             >
 
             
-            <h2 class="text-2xl font-light">
+            <h2 class="text-2xl font-light line-clamp-1">
                 ${produto.titulo}
             </h2>
 
