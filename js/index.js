@@ -1,6 +1,6 @@
 const cards = document.getElementById("cards");
 
-let quantidadeProdutos = 10;
+let quantidadeProdutos = 14;
 
 function mostrarProdutos(lista) {
 
