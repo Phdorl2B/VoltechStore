@@ -90,9 +90,10 @@
         class="w-full max-w-md px-4 py-3 border rounded-xl outline-none bg-white" >
 </div>
 
-   <nav class="flex gap-6">
-    <a href="#" class="hover:text-gray-300">♥</a>
-    <a href="#" class="hover:text-gray-300">🛒</a>
+   <nav class="flex gap-4 md:gap-10">
+  <i data-lucide="heart" class="w-5 h-5 md:w-6 md:h-6  cursor-pointer"></i>
+ <i data-lucide="shopping-cart" class="w-5 h-5 md:w-6 md:h-6  cursor-pointer"></i>  
+    <i data-lucide="user" class="w-5 h-5 md:w-6 md:h-6 cursor-pointer"></i>
 </nav>
 
 </div>
@@ -267,6 +268,13 @@
 <script src="js/pesquisa.js"> </script>
 <script src="js/categorias.js"></script>
 
+
+
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<script>
+    lucide.createIcons();
+</script>
 
 </body>
 </html>
