@@ -16,7 +16,7 @@ function mostrarProdutos(lista) {
         
         <div 
             onclick="window.location.href='produto.html?id=${produto.id}'"
-            class="relative flex flex-col bg-white rounded-2xl mt-4 shadow-lg m-1 p-3 w-[10em]  md:w-full hover:scale-105 transition duration-300 cursor-pointer"
+            class="relative flex flex-col bg-white rounded-2xl mt-4 shadow-lg m-0 p-3 w-[10em]  md:w-full md:m-1 hover:scale-105 transition duration-300 cursor-pointer"
         >
 
             <button
