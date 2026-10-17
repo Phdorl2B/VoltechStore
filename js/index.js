@@ -7,13 +7,10 @@ const secoes = [
         titulo: "Ofertas",
         tipo: "Ofertas"
     },
+    
     {
-        titulo: "Placas-mãe",
-        categoria: "Placa-mãe"
-    },
-    {
-        titulo: "Placas de vídeo",
-        categoria: "Placa de Video"
+        titulo: "Hardware",
+        tipo: "Hardware"
     },
     {
         titulo: "Todos os produtos",
@@ -87,21 +84,29 @@ function criarSecao(secao) {
         }
     }, true);
 
-    // Seleciona os produtos da seção
-    let lista = produtos;
+   
+ // Seleciona os produtos da seção
+let lista = produtos;
 
-    if (secao.tipo === "Ofertas") {
-        const ids = ["003", "004", "001"];
+if (secao.tipo === "Ofertas") {
+    const ids = ["003", "004", "001"];
 
-        lista = produtos.filter((produto) =>
-            ids.includes(produto.id)
-        );
-    } else if (secao.categoria) {
-        lista = produtos.filter((produto) =>
-            produto.categoria.toLowerCase() ===
-            secao.categoria.toLowerCase()
-        );
-    }
+    lista = produtos.filter((produto) =>
+        ids.includes(produto.id)
+    );
+
+} else if (secao.tipo === "Hardware") {
+    lista = produtos.filter((produto) =>
+        produto.secao?.toLowerCase() === "hardware"
+    );
+
+} else if (secao.categoria) {
+    lista = produtos.filter((produto) =>
+        produto.categoria.toLowerCase() ===
+        secao.categoria.toLowerCase()
+    );
+}
+
 
     // Cria os cards
     lista.forEach((produto) => {
