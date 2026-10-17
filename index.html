@@ -28,9 +28,10 @@
             <span class="w-5 h-0.5 bg-gray-400"></span>
         </span>
 
-      
     </button>
 
+
+     <!--CategoriaMobile-->
     <div
         id="categoriasMenuMobile"
         class="hidden absolute left-0 top-full mt-2 w-56 bg-white text-black rounded-lg shadow-xl overflow-hidden z-50"
@@ -90,11 +91,36 @@
         class="w-full max-w-md px-4 py-3 border rounded-xl outline-none bg-white" >
 </div>
 
-   <nav class="flex gap-4 md:gap-10">
-  <i data-lucide="heart" class="w-5 h-5 md:w-6 md:h-6  cursor-pointer"></i>
- <i data-lucide="shopping-cart" class="w-5 h-5 md:w-6 md:h-6  cursor-pointer"></i>  
-    <i data-lucide="user" class="w-5 h-5 md:w-6 md:h-6 cursor-pointer"></i>
+   
+<nav class="flex gap-4 md:gap-10">
+
+    <i
+        data-lucide="heart"
+        class="w-5 h-5 md:w-6 md:h-6 cursor-pointer"
+    ></i>
+
+    <span class="relative inline-flex">
+        <i
+            data-lucide="shopping-cart"
+            id="iconeCarrinho"
+            class="w-5 h-5 md:w-6 md:h-6 cursor-pointer"
+        ></i>
+
+        <span
+            id="cart-count"
+            class="absolute -top-2 -right-2 bg-red-500 text-white
+                   text-[10px] min-w-4 h-4 px-1 rounded-full
+                   flex items-center justify-center"
+        >0</span>
+    </span>
+
+    <i
+        data-lucide="user"
+        class="w-5 h-5 md:w-6 md:h-6 cursor-pointer"
+    ></i>
+
 </nav>
+
 
 </div>
     </div>
@@ -171,11 +197,11 @@
   </header>
   
 
-<!---banner--->
+<!---Banner--->
 
   <div class="hidden md:block">
 <img
-    class="w-[98%] mx-auto h-auto mt-4 object-contain rounded-2xl"
+    class="w-[98%] mx-auto h-full mt-4 object-contain rounded-2xl"
     src="https://res.cloudinary.com/m68oprsk/image/upload/v1789431209/ChatGPT_Image_14_de_set._de_2026_3.png"
     alt="Promoção VoltechStore"
 >
@@ -188,16 +214,18 @@
   </div>
 
  <!--Cards-->
+<main id="vitrine" class="space-y-8 px-3 py-6"></main>
 
-<main
-    id="cards"
-    class="grid m-0 w-full gap-4 p-0 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 md:gap-6 lg:grid-cols-4 xl:grid-cols-7 justify-items-center md:p-6 "
->
 </main>
+<!--CardsMobile-->
+<Section>
 
-<button id="verMais" class="cursor-pointer items-center mx-auto flex bg-black text-white p-6 rounded-2xl text-lg">
-    Ver mais
-</button>
+  <div id=cardsmobi class="flex transition-transform duration-300 hover:translate-x-4">
+  
+  </div>
+
+</Section>
+
 
 <footer class="bg-black text-gray-300 mt-16">
   <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -265,11 +293,12 @@
 </footer>
 
 
-<script src="js/produtos.js" ></script>
+<script src="js/produtos.js"></script>
+<script src="js/cards.js"></script>
+<script src="js/carrinho.js"></script>
 <script src="js/index.js"></script>
-<script src="js/pesquisa.js"> </script>
+<script src="js/pesquisa.js"></script>
 <script src="js/categorias.js"></script>
-
 
 
 <script src="https://unpkg.com/lucide@latest"></script>
